@@ -30,10 +30,10 @@ print(f"\nВсего потрачено: {total} руб.")
 
 if total <= income:
     remainder = income - total
-    print(f"✅ Вы в рамках бюджета. Остаток: {remainder} руб.")
+    print(f"Вы в рамках бюджета. Остаток: {remainder} руб.")
 else:
     overspend = total - income
-    print(f"⚠️ Вы превысили бюджет на {overspend} руб.")
+    print(f"Вы превысили бюджет на {overspend} руб.")
 
 if max_waste:
     print(f"Самая крупная трата: {max_waste} ({max_amount} руб.)")
